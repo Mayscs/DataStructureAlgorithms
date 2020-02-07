@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect-core/src/main/java/com/appdirect/backend/integration/custom/crest/model/CrestSku.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect-core/src/main/java/com/appdirect/backend/integration/custom/mosi/types/MosiSku.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/azure/type/ProvisioningId.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/mosi/service/MicrosoftOnlineServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/mosi/service/MosiEditionHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/mosi/sync/utils/TelstraManualUserSyncImportServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/mosi/sync/utils/TelstraManualUserSyncUtilityServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/reports/report/impl/task/TelstraTBillInvoiceImportTaskHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/DynamicArray.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
