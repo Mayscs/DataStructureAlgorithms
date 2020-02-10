@@ -13,6 +13,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect-dao/src/main/java/com/appdirect/backend/entitlement/dao/CompanyEntitlementDAOImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect-dao/src/main/java/com/appdirect/backend/entitlement/dao/UserEntitlementDAOImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/core/jobs/service/SchedulerHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/azure/type/ProvisioningId.java">
           <value>
             <set />
@@ -28,7 +43,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/mosi/sync/utils/TelstraManualUserSyncImportJobHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/mosi/sync/utils/TelstraManualUserSyncImportJobHelperImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/mosi/sync/utils/TelstraManualUserSyncImportServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/mosi/sync/utils/TelstraManualUserSyncImportTaskHandler.java">
           <value>
             <set />
           </value>
@@ -39,6 +69,31 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/reports/report/impl/task/TelstraTBillInvoiceImportTaskHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/MSFT_Connector/msft-inbound-connector/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/MSFT_Connector/msft-inbound-connector/microsoft-api/microsoft-reseller/src/main/java/com/appdirect/integration/microsoft/reseller/ResellerAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/MSFT_Connector/msft-inbound-connector/microsoft-api/microsoft-reseller/src/main/java/com/appdirect/integration/microsoft/reseller/jpa/ResellerAccountDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/google-connector/src/main/java/com/googleconnector/domain/DomainOwnershipVerificationHandlerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/manifests-shared.test.us-east-1/default/msft-inbound-connector.yaml">
           <value>
             <set />
           </value>

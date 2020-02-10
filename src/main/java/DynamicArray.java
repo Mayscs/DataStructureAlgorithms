@@ -1,9 +1,6 @@
 import java.util.Iterator;
-
-import jdk.nashorn.internal.objects.annotations.Getter;
 import jdk.nashorn.internal.runtime.regexp.joni.exception.ValueException;
 
-@Getter
 public class DynamicArray<T> implements Iterable<T> {
 
 	private T[] array ;
@@ -22,15 +19,17 @@ public class DynamicArray<T> implements Iterable<T> {
 	}
 
 	public void add(T value){
-		if (capacity > index) {
+		if (capacity > 0) {
 			array[index] = value;
 			index++; capacity--;
-		} else {
+		} else { if (length == 0) length=capacity=1;
 			T[] newArray = (T[]) new Object[length*2];
-			for(i=0;i<array.length;i++){
+			for(int i=0;i<array.length;i++){
 				newArray[i]=array[i];
 			}
 			array=newArray;
+			array[index]=value;
+			capacity += (length/2 - 1);
 		}
 	}
 
@@ -48,12 +47,24 @@ public class DynamicArray<T> implements Iterable<T> {
 		return -1;
 	}
 
-	public void remove(int rmIndex){
+	public T remove(int rmIndex){
 		if(rmIndex < 0 && rmIndex >=length) throw new IndexOutOfBoundsException("Remove Index out of size of array.");
+		T value = array[rmIndex];
 		if (rmIndex == length-1) array[rmIndex]=null;
-		for(int i=rmIndex; i<length-1; i++){ ;
-			array[i]=array[i+1];
+		else {
+			for (int i = rmIndex; i < length - 1; i++) {
+				array[i] = array[i + 1];
+			}
+			array[length - 1] = null;
 		}
+		capacity++;
+		if (capacity%8 == 0) {
+			T[] newArr = (T[]) new Object[length/2];
+			newArr = array;
+			this.array=newArr;
+			length=length/2; capacity=0;
+		}
+		return value;
 	}
 
 	public Iterator<T> iterator() {
