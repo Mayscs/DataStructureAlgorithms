@@ -3,12 +3,22 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect-core/src/main/java/com/appdirect/backend/app/types/PricingUnit.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect-core/src/main/java/com/appdirect/backend/integration/custom/crest/model/CrestSku.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect-core/src/main/java/com/appdirect/backend/integration/custom/mosi/types/MosiSku.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect-core/src/main/java/com/appdirect/backend/integration/custom/service/impl/MsftSkuServiceImpl.java">
           <value>
             <set />
           </value>
@@ -73,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/wicket/resources/spa/themes/base/js/common/constants/pricing/units.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppDirectRepo/MSFT_Connector/msft-inbound-connector/build.gradle">
           <value>
             <set />
@@ -93,6 +108,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/localization/localization.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/localization/translations/monolith/src/main/com/appdirect/backend/app/types/PricingUnit.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/localization/translations/monolith/src/main/com/appdirect/wicket/common/application/AppDirectApplication.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppDirectRepo/manifests-shared.test.us-east-1/default/msft-inbound-connector.yaml">
           <value>
             <set />
@@ -104,6 +134,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/DynamicArray.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/DynamicArrayImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Runner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
           <value>
             <set />
           </value>
