@@ -33,7 +33,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/billing/jobs/ContractExtensionHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/core/jobs/service/SchedulerHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/azure/service/MicrosoftMembershipSyncServiceImpl.java">
           <value>
             <set />
           </value>
@@ -79,6 +89,11 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/reports/report/impl/task/TelstraTBillInvoiceImportTaskHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/reports/report/impl/task/services/TBillInvoiceImportServiceImpl.java">
           <value>
             <set />
           </value>
@@ -139,6 +154,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/DynamicArrayImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/OnTheFly.java">
           <value>
             <set />
           </value>

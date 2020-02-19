@@ -8,9 +8,9 @@ public class Runner {
 		dynamicArray.add(" with Potential.");
 		dynamicArray.add(" I'll fly");
 		System.out.println(((DynamicArrayImpl) dynamicArray).getLength());
-		System.out.println(((DynamicArrayImpl) dynamicArray).iterator());
-
-		//((DynamicArrayImpl) dynamicArray).iterator();
+		System.out.println(((DynamicArrayImpl) dynamicArray).iterator().next());
+		((DynamicArrayImpl) dynamicArray).iterator().forEachRemaining(System.out :: println);
 		dynamicArray.display();
+		System.out.println(dynamicArray.toString());
 	}
 }

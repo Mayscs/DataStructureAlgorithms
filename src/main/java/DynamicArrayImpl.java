@@ -94,7 +94,29 @@ public class DynamicArrayImpl<T> implements Iterable<T>, DynamicArray<T>{
 		return index;
 	}
 
+	@Override
 	public Iterator<T> iterator() {
-		return null;
+		return new java.util.Iterator<T>(){
+			int index = 0;
+			@Override
+			public boolean hasNext() {
+				return index > length;
+			}
+
+			@Override
+			public T next() {
+				return array[index++];
+			}
+		};
 	}
+@Override
+	public String toString() {
+		if (length == 0) return "[]";
+		StringBuilder sb = new StringBuilder(length)
+												.append("[ ");
+		for (T object : array) {
+			if (object != null) sb.append(object + ",");
+		}
+		return sb.replace(sb.length() -1, sb.length(), " ]").toString();
+}
 }
