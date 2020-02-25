@@ -148,6 +148,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/manifests-shared.prod.ap-northeast-2/default/msft-inbound-connector.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppDirectRepo/manifests-shared.test.us-east-1/default/msft-inbound-connector.yaml">
           <value>
             <set />
@@ -189,6 +194,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/LinkedList/DoubleLinkedListImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/LinkedList/Runner.java">
           <value>
             <set />
           </value>
