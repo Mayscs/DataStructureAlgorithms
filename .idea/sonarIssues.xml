@@ -83,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/mosi/sync/utils/TelstraManualUserSyncUtilityService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppDirectRepo/AppDirect/appdirect-parent/appdirect/src/main/java/com/appdirect/backend/integration/custom/mosi/sync/utils/TelstraManualUserSyncUtilityServiceImpl.java">
           <value>
             <set />
@@ -118,6 +123,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/MSFT_Connector/msft-inbound-connector/microsoft-appdirect-event-pipeline/microsoft-subscription-change/src/main/java/com/appdirect/integration/microsoft/subscription/change/quantity/listeners/ChangeSubscriptionQuantityListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppDirectRepo/google-connector/src/main/java/com/googleconnector/domain/DomainOwnershipVerificationHandlerImpl.java">
           <value>
             <set />
@@ -134,6 +144,11 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/AppDirectRepo/localization/translations/monolith/src/main/com/appdirect/wicket/common/application/AppDirectApplication.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppDirectRepo/manifests-shared.prod.ap-northeast-2/default/msft-inbound-connector.yaml">
           <value>
             <set />
           </value>
@@ -158,12 +173,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Arrays/DynamicArray.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Arrays/DynamicArrayImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Arrays/Runner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/DynamicArray.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/DynamicArrayImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/LinkedList/DoubleLinkedList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/LinkedList/DoubleLinkedListImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/LinkedList/Runner.java">
           <value>
             <set />
           </value>

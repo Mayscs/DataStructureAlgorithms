@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Iterator;
 
 import jdk.nashorn.internal.runtime.regexp.joni.exception.ValueException;
@@ -82,6 +84,7 @@ public class DynamicArrayImpl<T> implements Iterable<T>, DynamicArray<T>{
 		}
 	}
 
+	@Override
 	public int getLength() {
 		return length;
 	}
