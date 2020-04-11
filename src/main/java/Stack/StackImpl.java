@@ -32,6 +32,11 @@ public class StackImpl<T> implements Stack<T>{
 		}
 	}
 
+	public StackImpl() {
+		list = new SingleLinkedList();
+		size=0;
+	}
+
 	@Override
 	public void push(T value) {
 		list.add(new Node(value));
