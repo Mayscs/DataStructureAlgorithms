@@ -33,8 +33,8 @@ public class StackImpl<T> implements Stack<T>{
 	}
 
 	public StackImpl() {
-		list = new SingleLinkedList();
-		size=0;
+		this.list = new SingleLinkedList();
+		this.size=0;
 	}
 
 	@Override
@@ -64,6 +64,25 @@ public class StackImpl<T> implements Stack<T>{
 
 	private boolean isEmpty() {
 		return ( size == 0 );
+	}
+
+	@Override
+	public String toString() {
+		if (list.head==null) {return "[ ]";}
+/*		temp=list.head.next;
+		String result= list.head.value.toString();
+		while(temp != null) {
+			result += "->" + temp.value;
+			temp=temp.next;
+		}
+		return String.format("[ %s ]", result);*/
+	StringBuilder sb = new StringBuilder().append("[");
+	temp=list.head;
+	while (temp != null) {
+		sb.append(temp.value + "->");
+		temp=temp.next;
+	}
+	return sb.replace(sb.length()-2, sb.length(),"]").toString();
 	}
 
 	@Override
